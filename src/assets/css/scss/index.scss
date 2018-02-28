@@ -1,0 +1,24 @@
+@import '../assets/css/scss/common.scss';
+.swiper {
+    
+}
+.swiper-wrapper{
+    height:inherit;
+}
+.swiper-slide {
+    display: inline-block;
+    height:inherit;
+    img{
+        height:inherit;
+        width: 100%;
+    }
+    a{
+        height:inherit;
+    }
+}
+.slider-auto {
+    transition-duration: 300ms; 
+}
+@keyframes slider-auto {
+    
+}

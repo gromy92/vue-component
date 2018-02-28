@@ -1,0 +1,4 @@
+$uiWidth:750px;
+@function ptr($px) {
+ @return 10 * $px/$uiWidth * 1rem;
+}
