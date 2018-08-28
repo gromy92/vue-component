@@ -81,7 +81,7 @@ var staticPath = path.posix.join(config.dev.assetsPublicPath, config.dev.assetsS
 app.use(staticPath, express.static('./static'))
 // 启动服务器监听特定端口（8080）
 // 自动打开浏览器并打开特定网址（localhost:8080）
-var uri = 'http://localhost:' + port
+const uri = `http://localhost:${port}`;
 
 // 创建promise，在应用服务启动之后resolve
 // 便于外部文件require了这个dev-server之后的代码编写

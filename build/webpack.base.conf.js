@@ -18,7 +18,7 @@ function resolve (dir) {
 module.exports = {
   // 配置webpack编译入口
   entry: {
-    app: './src/main.js'
+    app: resolve('./demo/main.js'),
   },
   // 配置webpack输出路径和命名规则
   output: {   
