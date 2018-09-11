@@ -24,5 +24,4 @@ let app = new Vue({
   router,
   ...App
 });
-
 app.$mount("#app");
